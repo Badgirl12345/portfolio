@@ -134,7 +134,7 @@ span{
   border-radius: 50%;
   font-size: 2rem;
   color: var(--main-color);
-  margin: 3rem 1.5rem 3rem o;
+  margin: 3rem 1.5rem 3rem 0;
   transition: 0.3s ease;
 }
 .social-media a:hover{
