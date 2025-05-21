@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.resume {
+    display: flex;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.left-column {
+    background-color: #2e3b4e;
+    color: white;
+    padding: 30px;
+    width: 35%;
+}
+
+.left-column .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.left-column h2 {
+    margin-top: 0;
+}
+
+.left-column p,
+.left-column ul {
+    font-size: 14px;
+}
+
+.left-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.right-column {
+    padding: 30px;
+    width: 65%;
+    color: #333;
+}
+
+.right-column h3 {
+    color: #2e3b4e;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.right-column ul {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.skills li {
+    margin-bottom: 6px;
+}
+/* Tablet ke liye (768px tak) */
+@media only screen and (max-width: 768px) {
+  /* yahan elements ki width, font-size ya flex direction ko adjust karo */
+}
+/* Mobile ke liye (480px tak) */
+@media only screen and (max-width: 480px) {
+  /* same yahan bhi mobile ke hisab se size ya layout change karo */
+}
+@media only screen and (max-width: 768px) {
+  .project-card {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .project-card {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+}
